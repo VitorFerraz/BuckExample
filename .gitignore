@@ -1,0 +1,29 @@
+.DS_Store
+
+# Buck
+buck-out/
+.buckd/
+
+# Buck Local
+lib_targets.list
+
+# Downloaded buck
+tools/buck
+
+# Xcode
+**/xcuserdata/
+**/*.xcodeproj/
+**/*.xcworkspace/
+
+# Make
+*.d
+
+# Ruby gems
+vendor/bundle/
+
+# Build
+build/
+
+# DAG chart generated
+result.dot
+result.png
